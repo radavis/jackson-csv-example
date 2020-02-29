@@ -7,7 +7,7 @@
  */
 
 plugins {
-    id 'com.diffplug.gradle.spotless' version "${spotlessVersion}"
+    id 'com.diffplug.gradle.spotless' version "$spotlessVersion"
 
     // Apply the java plugin to add support for Java
     id 'java'
